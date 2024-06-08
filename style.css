@@ -1,0 +1,210 @@
+/*----- reset ---------*/
+*{margin: 0; padding: 0; font-family: 'Advent Pro', sans-serif;}
+body{background-color: #fff;   margin: 0; padding: 0;}
+a{text-decoration: none;}
+a:hover{color: #f3f3f3; }
+img{max-width: 100%;} 
+
+.cor-gradiente{
+    /*--color: #ec0000; text-shadow: 1px 1px 1px #fff;--*/
+    background-image: url(img/fundo-gradiente.png);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+
+/*----- titulos ---------*/
+.titulo-grande{font-size: 22px; color: #fff; }
+.titulo-medio{font-size: 18px; color: #666;}
+.titulo-pequeno{font-size: 16px; color: #ddddcc;}
+.titulo-pequeno-pp{font-size: 12px; color: #fff;}
+
+#pagina-geral{max-width: 1100px; height: auto; margin: 0 auto; background: url(img/modelo.png);}
+
+#layout{float: left; width: 100%; height: 190px; background: url(img/layout.png); }
+#logomarca{float: left; width: 50%; height: 130px; margin-top: 10px; }
+.logomarca{float: left; width: 24%; height: auto; margin-left: 25px;}
+.logomarca img{width: 122px; height: 122px;}
+.logotexto-texto{float: right; width: 74%; height: 90px; margin-top: 12px; margin-right: 2px; }
+.textologo{float: left; width: 100%; height: 50px; }
+.textologo img{margin-bottom: 0; padding-bottom: 0; padding-top: 10px;}
+.texto{float: left; width: 100%; height: auto; margin-left: 5px; margin-top: 4px; font-size: 25px; }
+
+#campo-menu{float: right; width: 42%; height: 60px; margin-top: 65px; background: url(img/menu.png);}    
+.campo-menu{float: right; width: 90%; height: auto; margin-top: 8px; margin-right: 2%; 
+    font-size: 20px; }
+
+/*------- menu ---------*/
+#menu{float: right; width: 100%; height: 30px; margin-top: 0;  }
+nav{width: 100%; margin: 5px auto; z-index: 999; }
+nav ul{overflow: hidden; list-style: none; }
+nav ul li{float: left; width: 30%; height: auto; font-size: 25px; margin: 0; text-align: center; }
+nav ul li:hover{color: #000; height: auto; margin: 0; }    
+nav ul li a{color: #fff; padding-top: 0; display: block; text-decoration: none;}
+.menu_bar{display: none;}
+
+
+#texto1-slider{float: left; width: 100%; height: 290px; background: url(img/fundo-slider.png); }
+#texto1{float: left; width: 36%; height: 200px; color:#FFF; margin-top: 80px; font-size: 34px; 
+    padding-left: 15px; }
+
+
+#campo-slider{float: right; width: 62%; height: auto; margin-top: 12px; color:#fff; }
+
+#home{float: left; width: 100%; height: auto;}
+
+#sobre{float: left; width: 100%; height: 270px; 
+    background: url(img/fundo-sobre-contato.png);  text-align: center;}
+#titulo-sobre{float: right; width: 90%; height: auto; margin-top: 1%; color: #fff; 
+    font-size: 35px;}
+#texto-sobre{float: right; width: 88%; height: auto; margin-top: 1%; padding-left: 1%; padding-right: 1%; 
+    color: #fff; font-size: 18px; text-align: left;}       
+
+
+
+#contato{float: left; width: 100%; height: 270px; background: url(img/fundo-sobre-contato.png); 
+    text-align: center; }
+#titulo-contato{float: right; width: 90%; height: auto; margin-top: 1%; color: #fff; 
+    font-size: 35px;}
+#texto-contato{float: right; width: 88%; height: auto; margin-top: 0; padding-left: 1%; padding-right: 1%; 
+    color: #fff; font-size: 18px; text-align: left;}       
+form{padding-left: 1%;}
+form input{background: #000; color: #fff; border: solid 1px #fff;}
+form textarea{background: #000; color: #fff; border: solid 1px #fff;}
+.cor-botao{height: 30px; margin-top: 5px; padding: 4px; background: url(img/fundo-gradiente.png); 
+    border-radius: 5px; color: #fff; border: solid 1px #000; }
+.cor-botao:hover{color: #f3f3f3; font-size: 14px;} 
+
+#campo-icons{float: left; width: 100%; height: 150px; background: url(img/icons.png); }
+#icons{float: right; width: 68%; height: auto; margin-top: 15px; padding: 1%;}
+#icon-a{float: right; width: 36%; height: auto; margin-left: 3%;  font-size: 15px; color: #fff; }
+#icon-b{float: right; width: 30%; height: auto; margin-left: 1%;  font-size: 15px; color: #fff;}
+#icon-b a{color: #fff;}
+#icon-b a:hover{color: #fff;}
+#icon-c{float: right; width: 25%; height: auto; margin-left: 1%;  font-size: 15px; color: #fff;}
+#icon-c a{color: #fff;}
+#icon-c a:hover{color: #fff;}
+.con-i i{     
+    padding: 5px; border-radius: 100%;
+    background-image: url(img/fundo-gradiente.png);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+
+
+#campo-vazio{float: left; width: 100%; height: 135px; background: url(img/vazio.png); }
+
+#rodape{float: left; width: 100%; height: 235px; background: url(img/rodape.png);}
+#rod-left{float: left; width: 42%; height: 190px; margin-left: 4%; margin-top: 5%; }
+#barros{float: left; width: 100%; height: auto; padding-left: 5%;  font-size: 29px;}
+#endereco{float: left; width: 100%; height: auto; margin-top: 5px; padding-left: 5%; font-size: 22px; color:#FFF; }
+    
+#rod-right{float: right; width: 48%; height: 200px; margin-right: 1%; margin-top: 1%; 
+    padding-left: 1%; border-left: solid 1px #fff;  }
+#empresa{float: left; width: 100%; height: auto; font-size: 35px;}
+#texto-empresa{float: left; width: 100%; height: auto; font-size: 18px; color:#FFF;}
+
+#copy{float: left; width: 100%; height: auto; color: #fff; text-align: center; padding-top: 1%; 
+    padding-bottom: 1%; background: url(img/fundo-gradiente.png);}
+
+/*================================================*/
+/*------------------- Media Query ----------------*/
+
+@media screen and (max-width: 768px){
+     
+    #pagina-geral{width: 100%; height: auto; margin: 0 auto; background: #000; }  
+    
+    /*------------------- pagina ----------------*/    
+    #layout{float: left; width: 100%; height: 110px; margin: 0; padding: 0; background: #000;}
+    #logomarca{width: 100%; height: auto; margin: 0 auto; padding: 0; background: #000;}
+    .logomarca{float: left; width: 100%; height: 75px; margin: 0 auto; padding: 0; text-align: center; 
+        background: #000;}
+    .logomarca img{width: auto; height: 75px; margin-bottom: 0; background: #000; padding-top: 5px;}   
+    
+    .textologo{display: none;} 
+    .texto{display: none;}
+    /*------------------- menu ----------------*/
+    #campo-menu{float: left; width: 100%; height: auto; margin: 0; padding: 0; 
+        background: url(img/fundo-gradiente.png);  }
+    .campo-menu{float: left; width: 100%; height: auto; margin: 0; padding: 0; }
+    #menu{float: left; width: 100%; height: 30px; margin: 0 auto; 
+        }
+
+    nav{width: 100%; height: auto; left: -100%; margin: 0; position: fixed; opacity: 0.95; 
+        background: #000;}
+    nav ul li{width: 100%; display: block; float: none; margin-top: 1px; margin-left: 0; 
+        margin-bottom: 1px; border-bottom: solid 1px #fff; color: #fff;}
+    nav ul li a{color: #fff; font-size: 18px; }
+    nav ul li a:hover{color: #fff; font-size: 18px;}    
+    .menu_bar{display: block; width: 100%; color: #fff;}    
+    .br-menu{display: block; padding-left: 5px; padding-top: 5px; padding-bottom: 5px; color: #fff;
+        font-size: 15px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing:border-box;
+        box-sizing: border-box;}
+    .br-menu:hover{color: #f3f3f3;}
+    
+     /*------------------- texto1-slider ----------------*/
+    #texto1-slider{float: left; width: 100%; height: auto; margin: 0 auto; background: #333;}    
+
+    #texto1{float: left; width: 98%; height: auto; margin: 0 auto; padding-left: 1%; padding-right: 1%; 
+        font-size: 25px; color: #fff; background: #333; text-align: center; }    
+
+    #campo-slider{float: left; width: 100%; height: auto; margin: 0 auto; padding: 0; 
+        background: #000; text-align: center; }
+    #campo-icons{float: left; width: 100%; height: auto; margin: 0; padding-top: 1; background-color:#000;}
+    #icons{float: left; width: 100%; height: auto; margin: 0; padding: 0; font-size: 10px; 
+        background-color:#000;}
+    #icon-a{float: left; width: 36%; height: auto; font-size: 14px;}
+    #icon-b{float: left; width: 29%; height: auto; font-size: 14px;}
+    #icon-c{float: left; width: 29%; height: auto; font-size: 14px;}
+
+    #campo-vazio{float: left; width: 100%; height: auto; margin: 0; padding: 0;
+        border-bottom: solid 1px #ccc; }
+    
+    #sobre{float: left; width: 98%; height: auto; margin: 0; padding: 1%; border-top: solid 1px #ccc;}
+    #titulo-sobre{float: left; width: 100%; height: auto; font-size: 25px; margin: 0; padding-top: 1%; 
+        padding-bottom: 2%;}
+    #texto-sobre{float: left; width: 100%; height: auto; font-size: 18px; margin: 0; padding-top: 2% 
+        padding-bottom: 2%;}
+
+    #contato{float: left; width: 98%; height: auto; margin: 0; padding: 1%; border-top: solid 1px #ccc;}
+    #titulo-contato{float: left; width: 100%; height: auto; font-size: 25px; margin: 0; padding-top: 1%; 
+        padding-bottom: 1%;}
+    #texto-contato{float: left; width: 100%; height: auto; font-size: 18px; margin: 0; padding-top: 2% 
+        padding-bottom: 2%;}      
+
+    #rodape{float: left; width: 100%; height: auto; margin: 0; padding: 0; background: #000; border: solid 1px #000;}
+
+    #rod-right{float: left; width: 100%; height: auto; margin: 0; padding-top: 0; border: solid 1px #000;}
+	
+    #empresa{float: left; width: 100%; height: auto; margin: 0; padding: 0; font-size: 25px; 
+    text-align: center; }
+    #texto-empresa{float:left; width: 100%; height: auto; font-size: 14px; padding-left: 1px; }
+
+    #rod-left{float: left; width: 100%; height: auto; margin: 0; padding-top: 1%; 
+        border-top: solid 1px #ccc;}
+    #barros{float: left; width: 100%; height: auto; margin: 0; padding: 0; font-size: 25px; 
+    text-align: center; }
+    #endereco{width: 100%; height: auto; font-size: 15px; padding-left: 5px; }
+
+    #copy{float: left; width: 100%; height: auto; margin: 0; padding-top: 1%; padding-bottom: 1%;}  
+
+}    
+
+@media screen and (max-width: 380px){    
+
+    #texto1{float: left; width: 100%; height: auto; margin: 0; padding: 0; font-size: 18px;}
+    span .cor-gradiente{ font-size: 18px;  color: #FFF; background: #000; border: solid 1px #000; }
+    
+	rod-right{float: left; width: 100%; height: auto; margin: 0; padding-top: 0;}
+	
+    #campo-icons{float: left; width: 100%; height: auto; margin: 0; padding: 0;}
+    #icons{float: left; width: 100%; height: auto; margin: 0; padding: 0; font-size: 10px; 
+        background: #000;}
+    #icon-a{float: left; width: 100%; height: auto; font-size: 14px; margin: 0; padding: 0;}
+    #icon-b{float: left; width: 100%; height: auto; font-size: 14px; margin: 0; padding: 0;}
+    #icon-c{float: left; width: 100%; height: auto; font-size: 14px; margin: 0; padding: 0;}
+    .con-i{margin: 0; padding: 0;}
+    
+   
+}
